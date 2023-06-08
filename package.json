@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@google-cloud/firestore": "^6.6.1",
+    "@google-cloud/functions-framework": "^3.2.0",
+    "@google-cloud/storage": "^6.11.0",
+    "blurhash": "^2.0.5",
+    "canvas": "^2.11.2"
+  },
+  "scripts": {
+    "start": "functions-framework --target=encodeBlurHash"
+  }
+}
